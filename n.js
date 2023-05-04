@@ -72,7 +72,7 @@ window.onload = function(){
 
         
 
-        var topTextSize = 30;
+        var topTextSize = 100;
         var topMiddlePadding = 30;
         var middleTextSize = 120;
         var middleBottomPadding = 20;        
@@ -80,9 +80,9 @@ window.onload = function(){
         var margin = 60;
         var bottomTextLetterSpacing = 20;
 
-        var topTextFont = `normal 200 ${topTextSize}px/2 "Gothic A1"`;
+        var topTextFont = `normal bold ${topTextSize}px/2 "Yu Mincho"`;
         var middleTextFont = `normal 700 ${middleTextSize}px/2 Marhey`;
-        var bottomTextFont = `normal 200 ${bottomTextSize}px/2 Gothic A1`;
+        var bottomTextFont = `normal bold  ${bottomTextSize}px/2 Yu Mincho`;
 
         // resize canvas
         g.font = topTextFont;
@@ -252,11 +252,9 @@ window.onload = function(){
 
     }
 
-   topInput.value = "❀༉♡₊˚.";
+    topInput.value = "❀༉♡₊˚.";
     middleInput.value = "عشاء";
-     bottomInput.value = "✧ ‿︵‿୨୧‿︵‿ ✧";      
-           
-   
+    bottomInput.value = "✧ ‿︵‿୨୧‿︵‿ ✧";
     update();
 
     download.addEventListener("click", function(){

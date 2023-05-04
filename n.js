@@ -252,9 +252,9 @@ window.onload = function(){
 
     }
 
-   topInput.value = "🍄";
-    middleInput.value = "❀༉♡₊";
-     bottomInput.value = "❀༉♡₊";      
+   topInput.value = "❀༉♡₊˚.";
+    middleInput.value = "عشاء";
+     bottomInput.value = "✧ ‿︵‿୨୧‿︵‿ ✧";      
            
    
     update();
